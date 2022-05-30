@@ -1,0 +1,28 @@
+#navbar{
+    border:1px solid red;
+    border-radius: 10px;
+    background-color: rgb(234, 44, 44);
+    display: flex;
+    height:60px;
+    padding: 5px 2px 5px 2px;
+    
+}
+#this{
+    display:flex;
+    margin-left: 65%;
+    gap: 30px;
+    padding: 5px 2px 5px 2px
+  
+}
+#menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,auto);
+    gap: 20px;
+    
+}
+img{
+    height: 250px;
+    
+}
+
